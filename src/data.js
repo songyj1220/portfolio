@@ -7,6 +7,8 @@ export const featuredPortfolio = [
         "assets/journal.png",
       link:
         "https://desolate-bastion-25662.herokuapp.com/",
+      github:
+      "",
     },
     {
       id: 2,
@@ -15,6 +17,8 @@ export const featuredPortfolio = [
         "assets/ravenous.png",
         link:
         "https://master.dg41cckox7rkv.amplifyapp.com/",
+        github:
+        "https://github.com/songyj1220/ravenous/tree/master",        
     },
     {
       id: 3,
@@ -23,6 +27,8 @@ export const featuredPortfolio = [
         "assets/movie.png",
         link:
         "https://test.djzxqp43jsfp3.amplifyapp.com/",
+        github:
+        "https://github.com/songyj1220/movie-website-frontend/tree/test",
     },
     {
       id: 4,
@@ -31,6 +37,8 @@ export const featuredPortfolio = [
         "assets/petBuddy.png",
         link:
         "https://master.d30g0f4px4qbkn.amplifyapp.com/petList",
+        github:
+        "https://github.com/songyj1220/PetBuddy/tree/master",
     },
     // {
     //   id: 5,

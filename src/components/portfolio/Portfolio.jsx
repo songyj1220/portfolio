@@ -73,13 +73,35 @@ export default function Portfolio() {
       <div className="container">
         {data.map((d) => (
           <div className="item">
-            <a href={d.link} target="_blank">
+            {/* <a href={d.link} target="_blank"> */}
               <img
                 src={d.img}
                 alt=""
               />
-            </a>
-            <h3>{d.title}</h3>
+            {/* </a> */}
+            <h3>     
+              <div className="webLink">       
+              <a href={d.link} target="_blank">
+              {d.title}
+              </a>
+              </div>
+              {
+              d.github &&
+                <div className="gitLink">
+                <a href={d.github} target="_blank">
+                GitHub
+                </a>
+                </div>
+              }
+            </h3>
+            {/* {
+              d.github &&
+              <h4>            
+                <a href={d.github} target="_blank">
+                GitHub
+                </a>
+              </h4>
+            } */}
           </div>
         ))}
       </div>
